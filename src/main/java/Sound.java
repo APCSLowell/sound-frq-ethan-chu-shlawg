@@ -13,7 +13,7 @@ public class Sound
    *         Precondition: limit >= 0
    *  @return the number of values in this sound that this method changed
    */
-  public int limitAmplitude(int limit)
+  public int limitAmplitude(int limit) //everything works on processing :\
   {  
     int count = 0;
     for(int i = 0; i < samples.length; i++){
