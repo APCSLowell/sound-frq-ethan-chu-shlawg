@@ -85,7 +85,7 @@ public class Tester {
       int [] answer  = new int[] {1};
       for (int i = 0; i < answer.length; i++){
          String failMsg = "Test failed. Expected " + answer[i] + " at sample index " + i + ", but found " + temp.samples[i];
-         assertEqualstemp.samples[i], answer[i], failMsg);
+         assertEquals(temp.samples[i], answer[i], failMsg);
     }
    //Failed - Input {1} Expected Output <nothing> but samples should be {1}
 }
